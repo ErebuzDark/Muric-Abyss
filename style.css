@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(39, 33, 33);
+    height: auto;
+}
+/*===========================================For my Head Bar===============================*/
+   
+    #introduction {
+        padding: 30px;
+        padding-top: 50px;
+        display: flex;
+    }
+
+    #introduction h1{
+       font-size: 70px;
+       font-family: 'Franklin Gothic Medium';
+       color: antiquewhite;
+       height: 150px;
+       margin-top: 70px;
+    }
+
+    #webName img{
+        width: 170px;
+        padding-top: 60px;
+        padding-right: 20px;
+        border-radius: 50%;
+    }
+
+    #webName img:hover {
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+
+    #introSentence {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium';
+        color: antiquewhite;
+        padding-left: 15px;
+     }
+
+     #introSentence2 {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium';
+        color: antiquewhite;
+        margin-bottom: 100px;
+        padding-left: 15px;
+     }
+
+    .headBar{
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+        padding-left: 40px;
+        height: 65px;
+        background-color: gray;
+        position: fixed;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        box-shadow:0px 3px 10px black;
+    }
+
+    .headBar a{
+        display: flex;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-decoration: none;
+        color: rgb(10, 10, 10);
+    }
+
+    .headBar a:hover{
+        text-decoration: none;
+        color: rgb(222, 222, 223);
+        font-size: 20px;
+        font-weight:bolder;
+        transition: .5s  ;
+    }
+
+    #home a{
+        color: aliceblue;
+        background-color: rgb(34, 34, 34); 
+        padding-top: 10px;
+        padding-bottom: 23px;
+        margin-top: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+/*=======================================For my Side Bar====================================*/
+    .bars {
+        display: flex;
+    }
+    #sideBar {
+        margin: 10px;
+        margin-top: 100px;
+        font-size: 20px;
+        height: 500px;
+        background-color: rgb(14, 13, 13);
+        width: 110px;
+        padding-top: 10px;
+        border-radius: 5px;
+        border-bottom-style: dotted;
+        border-right-style: dotted;
+        box-shadow: 6px 8px black   ;
+    }
+
+    #sideBar img {
+        width: 20px;
+    }
+
+    #sideBar div:hover {
+        transform: rotate(-4deg);
+        transition: .5s;
+    }
+
+    #sideBar div {
+        padding-bottom: 10px;
+        text-decoration: none;
+        color: aliceblue;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        width: 110px;
+
+    }
+
+    #sideBar div a{
+        padding-bottom: 30px;
+        text-decoration: none;
+        color: aliceblue;
+        margin-bottom: 30px;
+        width: 110px;
+    }
+
+/*========================================For my Main Screen===================================*/
+
+    #mainScreen {
+        background-color: rgb(14, 13, 13);
+        width: 80%;
+        height: 100%;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border-right-style: dashed;
+        box-shadow: 6px 8px black;
+    }
+
+    #par1 {
+        display: flex;
+    }
+
+    #par1 img{
+        margin-top: 25px;
+        margin-left: 25px;
+        border-radius: 5px;
+        width: 300px;
+    }
+
+    #par1 h1{
+        margin-top: 40px;
+        margin-left: 30px;
+        color: antiquewhite;
+        margin-right: 20px;
+    }
+
+    #par1 p{
+        margin-top: 10px;
+        margin-left: 30px;
+        color: antiquewhite;
+        font-family: Verdana;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    #par2 {
+        margin-top: 10px;
+        margin-left: 30px;
+        color: antiquewhite;
+        font-family: Verdana;
+        font-size: 17px;
+        margin-right: 20px;padding-bottom: 20px;
+        display: flex;
+    }
+
+    #par2 p {
+        margin-right: 20px;
+    }
+
+    #par2 img{
+        width: 250px;
+        border-radius: 5px;
+    }
+
+/*========================================Foy my Footnote======================================*/
+
+    #footnote {
+        width: 100%;
+        height: 150px;
+        color: rgb(86, 86, 87);
+        background-color: rgb(26, 25, 25);
+        margin-top: 50px;
+        display: flex;  
+    }
+
+    #muriclogo {
+        width: 30%;
+        height: 100px;
+    }
+
+    #muriclogo img {
+        width: 100px;
+        border-radius: 50%;
+        margin-top:30px;
+        margin-left:30px;
+    }
+
+    #muriclogo img:hover {
+        transform:rotate(360deg);
+        transition: 1s;
+    }
+
+    #muriclogo p {
+        padding-left: 36px;
+        color: black;
+        font-weight: bolder;
+    }
+
+    #note {
+        padding-top:10px;
+        font-family: Calibri;
+        text-align: center;
+        padding-top: 40px;
+        justify-content: center;
+        width: 60%;
+    }
+
+    #social {
+        width: 30%;
+    }
+
+    #social img {
+        width: 40px;
+        margin-top: 30px;
+        margin-left:  30px;
+    }
+
+    #social p {
+        font-size: smaller;
+        padding-left: 10px;
+    }
+
+    #flag img{
+        width: 15px;
+        margin-top: 0%;
+        margin-left: 23px;
+    }
+
+
+/*========================================800 Wide Screen======================================*/
+
+@media screen and (max-width:800px) {                            /*---Head Bar---*/ 
+        
+        body {
+            width: 100%;
+        }
+
+        #introduction {
+            padding: 20px;
+            display: flex;
+        }
+
+        #introduction h1{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium';
+        color: antiquewhite;
+        height: 150px;
+        margin-top: 70px;
+        }
+
+        #webName img{
+            width: 150px;
+            padding-top: 80px;
+            padding-left: 30px;
+            border-radius: 50%;
+        }
+
+        #introSentence {
+            font-size: 17px;
+            font-family: 'Franklin Gothic Medium';
+            color: antiquewhite;
+            margin-bottom: 70px;
+            padding-left: 30px;
+        }
+
+        .headBar a{                                 
+            width: 100%;  
+            margin-bottom: 15px;
+            padding-left: 10px;
+            font-size: 18px;
+            }
+
+        #home a{
+            padding-bottom: 24px    ;
+        }
+
+        #sideBar {                                                   /*---Side Bar---*/
+            margin: 8px;
+            margin-top: 100px;
+            font-size: 15px;
+            height: 500px;
+            background-color: rgb(14, 13, 13);
+            width: 90px;
+        }
+
+        #sideBar div a{
+            padding-bottom: 5px;
+            text-decoration: none;
+            color: aliceblue;
+            margin-bottom: 30px;
+            width: 110px;
+        }
+
+        #mainScreen {
+            background-color: rgb(14, 13, 13);
+            width: 100%;
+            height: 100%;
+            margin-top: 100px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+            border-right-style: dashed;
+            border-bottom-style: dashed;
+            box-shadow: 6px 8px black;
+        }
+
+        #par1 {
+            flex-wrap: wrap;
+        }
+
+        #par1 img {
+            margin-top: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            width: 230px;
+        }
+
+        #par1 h1 { 
+            margin-top: 10px;
+        }
+
+        #par2 {
+            display: block;
+        }
+
+        #par2 img{
+            width: 200px;
+            border-radius: 5px;
+        }
+    
+        #muriclogo {                                                   /*---Footnote---*/
+            width: 30%;
+            height: 100px;
+        }
+    
+        #muriclogo img {
+            width: 80px;
+            border-radius: 50%;
+            margin-top:30px;
+            margin-left:30px;
+        }
+    
+        #muriclogo p {
+            padding-left: 30px;
+            color: black;
+            font-weight: bolder;
+            font-size: smaller;
+        }
+    
+        #note {
+            padding-top:10px;
+            font-family: Calibri;
+            font-size: smaller;
+            text-align: center;
+            padding-top: 40px;
+            justify-content: center;
+            width: 60%;
+        }
+
+        #social p {
+            font-size:x-small;
+            padding-left: 20px;
+        }
+
+        #social img {
+            width: 30px;
+            margin-top: 30px;
+            margin-left:  30px;
+        }
+
+        #flag img{
+            width: 15px;
+            margin-top: 0%;
+            margin-left: 23px;
+        }
+    }
+/*========================================500 Wide Screen==================================*/
+
+@media screen and (max-width:500px) {   
+        
+        body {
+            width: 100%;
+        }
+        #introduction {
+            padding: 20px;
+            display: flex;
+        }
+
+        #introduction h1{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium';
+        color: antiquewhite;
+        height: 150px;
+        margin-top: 40px;
+        }
+
+        #webName img{
+            width: 100%;
+            padding-top: 80px;
+            padding-left: 30px;
+            border-radius: 50%;
+        }
+
+        #introSentence {
+            font-size: 13px;
+            font-family: 'Franklin Gothic Medium';
+            color: antiquewhite;
+            margin-bottom: 50px;
+            margin-top: 10px;
+            padding-left: 30px;
+        }
+
+        .bars {
+            display:block;
+        }
+
+        .headBar {
+            position: static;
+        }
+        .headBar a{                                         /*---Head Bar---*/
+            width: 100%;  
+            margin-bottom: 10px;
+            padding-left: 20px;
+            font-size: 15px;
+            margin-right: 0%;
+         }
+
+         #home a{
+            padding-bottom: 29px    ;
+        }
+
+
+        #sideBar {                                                  /*---Side Bar---*/
+            margin: 8px;
+            margin-top: 15px;
+            padding-left: 10px;
+            font-size: 15px;
+            height: 50px;
+            width: 465px;
+            background-color: rgb(14, 13, 13);
+            display: flex;
+        }
+
+        #sideBar div{
+            padding-bottom: 5px;
+            text-decoration: none;
+            color: aliceblue;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }   
+
+        #mainScreen {
+            background-color: rgb(14, 13, 13);
+            width: 451px;
+            height: 100%;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-right-style: dashed;
+            box-shadow: 6px 8px black;
+        }
+
+        #par1 {
+            flex-wrap: wrap;
+            font-size:small;
+        }
+
+        #par1 img{
+            margin-top: 25px;
+            margin-left: 25px;
+            border-radius: 5px;
+            width: 200px;
+            
+        }
+
+        #par1 h1{
+            margin-top: 10px;
+            margin-left: 20px;
+            color: antiquewhite;
+        }
+
+        #par2 {
+            font-size: medium;
+        }
+
+        #par2 img{
+            width: 150px;
+            border-radius: 5px;
+        }
+
+        #footnote {                                                 /*---Footnote*/
+            height: 100px;
+        }
+        #muriclogo img {                                        
+            width: 50px;
+            border-radius: 50%;
+            margin-top:30px;
+            margin-left:30px;
+        }
+    
+        #muriclogo p {
+            padding-left: 25px;
+            color: black;
+            font-weight: bolder;
+            font-size:x-small;
+        }
+    
+        #note {
+            padding-top:10px;
+            font-family: Calibri;
+            font-size:x-small;
+            text-align: center;
+            padding-top: 40px;
+            justify-content: center;
+            width: 60%;
+        }
+
+        #social p {
+            font-size:xx-small;
+            padding-left: 10px;
+            text-align: center;
+        }
+
+        #social img {
+            width: 15px;
+            margin-top: 30px;
+            margin-left:  30px;
+        }
+
+        #flag img{
+            width: 10px;
+            margin-top: 0%;
+            margin-left: 10px;
+        }
+    }
+/*=====================================400 width screen=======================================*/
+
+@media screen and (max-width:400px) {   
+        
+    body {
+        width: 100%;
+    }
+    #introduction {
+        padding: 20px;
+        display: flex;
+    }
+
+    #introduction h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    color: antiquewhite;
+    height: 150px;
+    margin-top: 40px;
+    }
+
+    #webName img{
+        width: 100%;
+        padding-top: 80px;
+        padding-left: 30px;
+        border-radius: 50%;
+    }
+
+    #introSentence {
+        font-size: 13px;
+        font-family: 'Franklin Gothic Medium';
+        color: antiquewhite;
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+
+    .bars {
+        display:block;
+    }
+
+    .headBar {
+        position: static;
+        width: 118%;
+    }
+    .headBar a{                                         /*---Head Bar---*/
+        width: 100%;  
+        margin-bottom: 10px;
+        padding-left: 20px;
+        font-size: 15px;
+        margin-right: 0%;
+     }
+
+     #home a{
+        padding-bottom: 29px    ;
+    }
+
+
+    #sideBar {                                                  /*---Side Bar---*/
+        margin: 8px;
+        margin-top: 15px;
+        padding-left: 10px;
+        font-size: 15px;
+        height: 50px;
+        width: 113%;
+        background-color: rgb(14, 13, 13);
+        display: flex;
+    }
+
+    #sideBar div{
+        padding-bottom: 5px;
+        text-decoration: none;
+        color: aliceblue;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }   
+
+    #mainScreen {
+        background-color: rgb(14, 13, 13);
+        width: 110%;
+        height: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border-right-style: dashed;
+        box-shadow: 6px 8px black;
+    }
+
+    #par1 {
+        flex-wrap: wrap;
+        font-size:small;
+    }
+
+    #par1 img{
+        margin-top: 25px;
+        margin-left: 25px;
+        border-radius: 5px;
+        width: 200px;
+        
+    }
+
+    #par1 h1{
+        margin-top: 10px;
+        margin-left: 20px;
+        color: antiquewhite;
+    }
+
+    #par2 {
+        font-size: medium;
+    }
+
+    #par2 img{
+        width: 150px;
+        border-radius: 5px;
+    }
+
+    #footnote {                                                 /*---Footnote*/
+        height: 100px;
+        width: 118%;
+    }
+    #muriclogo img {                                        
+        width: 50px;
+        border-radius: 50%;
+        margin-top:30px;
+        margin-left:30px;
+    }
+
+    #muriclogo p {
+        padding-left: 25px;
+        color: black;
+        font-weight: bolder;
+        font-size:x-small;
+    }
+
+    #note {
+        padding-top:10px;
+        font-family: Calibri;
+        font-size:x-small;
+        text-align: center;
+        padding-top: 40px;
+        justify-content: center;
+        width: 60%;
+    }
+
+    #social p {
+        font-size:xx-small;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    #social img {
+        width: 15px;
+        margin-top: 30px;
+        margin-left:  30px;
+    }
+
+    #flag img{
+        width: 10px;
+        margin-top: 0%;
+        margin-left: 10px;
+    }
+}

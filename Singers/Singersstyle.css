@@ -318,3 +318,87 @@ h6 {
     font-size: small;
 }
 }
+
+/*===============For 350 wide screen============*/
+
+@media screen and (max-width: 350px) {
+
+    #iframeBody {
+        width: 65%;
+        height: 100%;
+        display: block;
+    }
+
+    #singerPic {
+        display: block;
+    }
+
+    #singerPic div{
+        width: 65%;
+    }
+
+    #container img{
+        width: 170px;
+        margin-top: 20px;
+        margin-left: 33%;
+        display: block;
+    }
+
+    #singerPic p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+/*=======================For Singer Informations=================*/
+
+    #divider {
+        width: 130%;
+        height: 3px;
+    }
+
+    #singerInformations {
+        width: 357px;
+        margin-top: 50px;
+    }
+
+    #songlist {
+        margin-left: 50px;
+        margin-top: 15px;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    #songlist li {
+        margin-bottom: 6px;
+        font-size: small;
+    }
+
+    /*============================For my Audio Player=================*/
+#audioPlayer {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+#audioPlayer audio{
+    height: 20px;
+    margin-top: 21px;
+    margin-left: 1px;
+    width: 200px;
+}
+
+#audioPlayer img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+#songName {
+    font-size: small;
+}
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="singerstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<title>Muric Abyss</title>
+<link rel="icon" type="image/x-icon" href="images/Logo.png ">
+
+
+<body>
+
+    <div class="headBar">
+        <div id="home"><a href="index.html">Home</a></div>
+        <div id="singers"><a href="Singers.html">Singers</a></div>
+        <div><a href="Lyrics.html>">Songs</a></div>
+        <div><a href="MusicVideo.html">Music Video</a></div>   
+    </div>
+
+    <div id="bars">
+
+        <div id="sideBar">
+            <div>
+                <button type="button" class="Singers">1950's</button>
+                <div class="content">
+                    <p><a href="Singers/1950/elvisPresley.html" target="iframe_a">Elvis Presley</a></p>
+                    <p>Ray Charles</p>
+                    <p>Buddy Holly</p>
+                    <p>Brenda Lee</p>
+                    <p>Louis Armstrong</p>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" class="Singers">1980's</button>
+                <div class="content">
+                    <p>Michael Jackson</p>
+                    <p>Elton John</p>
+                    <p>Kate Bush</p>
+                    <p>Steven Tyler</p>
+                    <p>John Lennon</p>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" class="Singers">1990's</button>
+                <div class="content">
+                    <p>Mariah Carey</p>
+                    <p>Madonna</p>
+                    <p>Tupac Shakur</p>
+                    <p>Celine Dion</p>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" class="Singers">2000's</button>
+                <div class="content">
+                    <p>Eminem</p>
+                    <p>Alicia Keys</p>
+                    <p>Beyonce</p>
+                    <p>Jennifer Lopez</p>
+                    <p>John Legend</p>
+                    <p>Ne-Yo</p>
+                    <p>Adam Levine </p>
+                </div>
+            </div>
+
+            <div id="margin"></div>
+
+            <script>
+                var coll = document.getElementsByClassName("Singers");
+                var i;
+                
+                for (i = 0; i < coll.length; i++) {
+                  coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                      content.style.display = "none";
+                    } else {
+                      content.style.display = "block";
+                    }
+                  });
+                }
+                </script>
+        </div>
+
+        <div id="mainScreen">
+            
+            <div>
+                <iframe src="" frameborder="0" id="iframe" name="iframe_a"></iframe>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="footnote">
+        <div id="muriclogo"><img src="images/Logo.png" alt="muriclogo"><p>Muric Abyss</p></div>
+
+        <div id="note">
+            <p>This website is for practice only. </p>
+            <p>Erebus The Dark</p>
+        </div>
+
+        <div id="social">
+           
+            <a href="https://www.facebook.com/varon.gentica.54"><img src="images/fbLogo.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/varonnns/"><img src="images/insLogo.png" alt="instagram"></a>
+            <P>My social media accounts</P>
+            <p id="flag"><img src="images/phFlag.jpg" alt="phFlag">+63 9661483596 </p>
+        </div>
+</div>
+
+
+
+
+</body>
+
+
+
+</html>
+

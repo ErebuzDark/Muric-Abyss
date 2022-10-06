@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(14, 13, 13);
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgb(53, 51, 51); 
+border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: rgb(5, 5, 5); 
+}
+/*======================*/
+
+#iframeBody {
+    width: 100%;
+    height: 599px;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+}
+
+#singerPic {
+    width: 600px;
+    display: flex;
+}
+
+#singerPic p {
+    color: bisque;
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: Lucidac Sans;
+}
+
+#container img{
+    width: 270px;
+    margin-left: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 30px;
+    width: 100%;
+    font-family: Cochin;
+}
+/*=======================For Singer Informations=================*/
+#singerInformations {
+    width: 450px;
+    margin-top: 50px;
+}
+
+#songlist {
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#songlist li {
+    color: aliceblue;
+    font-family: Gill Sans;
+    margin-bottom: 6px;
+}
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: Cochin;
+}
+
+h6 {
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    margin-left: 30px;
+}
+
+#divider {
+    height: 469px;
+    width: 3px; 
+    background-color: gray;
+    margin-top: 65px;
+    margin-left: 30px;
+}
+
+#divider2 {
+    display: none;
+}
+
+/*============================For my Audio Player=================*/
+#audioPlayer {
+    margin-left: 40px;
+    size: 30px;
+    display: flex;
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#audioPlayer audio{
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 270px;
+}
+
+#songName {
+    color: bisque;
+    text-align: center;
+}
+
+#audioPlayer img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+/*========================For my CD disk Rotation*/
+#audioPlayer img {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+/*=========================800 Widescreen==================*/
+
+@media screen and (max-width: 800px) {
+
+    #iframeBody {
+        width: 100%;
+        height: 100%;
+    }
+
+    #singerPic {
+        display: block;
+    }
+
+    #container img{
+        width: 170px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    #singerPic p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        width: 100%;
+        font-family: Cochin;
+        font-size: larger;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+/*=======================For Singer Informations=================*/
+
+    #singerInformations {
+        width: 357px;
+        margin-top: 50px;
+    }
+
+    #songlist {
+        margin-left: 50px;
+        margin-top: 15px;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    #songlist li {
+        margin-bottom: 6px;
+        font-size: small;
+    }
+
+    /*============================For my Audio Player=================*/
+#audioPlayer {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+#audioPlayer audio{
+    height: 20px;
+    margin-top: 21px;
+    margin-left: 1px;
+    width: 200px;
+}
+
+#audioPlayer img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+#songName {
+    font-size: small;
+}
+}
+
+/*===============For 500 wide screen============*/
+
+@media screen and (max-width: 500px) {
+
+    #iframeBody {
+        width: 65%;
+        height: 100%;
+        display: block;
+    }
+
+    #singerPic {
+        display: block;
+    }
+
+    #singerPic div{
+        width: 65%;
+    }
+
+    #container img{
+        width: 170px;
+        margin-top: 20px;
+        margin-left: 33%;
+        display: block;
+    }
+
+    #singerPic p {
+        font-size: 13px;
+        margin-top: 25px;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+/*=======================For Singer Informations=================*/
+
+    #divider {
+        width: 130%;
+        height: 3px;
+    }
+
+    #singerInformations {
+        width: 357px;
+        margin-top: 50px;
+    }
+
+    #songlist {
+        margin-left: 50px;
+        margin-top: 15px;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    #songlist li {
+        margin-bottom: 6px;
+        font-size: small;
+    }
+
+    /*============================For my Audio Player=================*/
+#audioPlayer {
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+#audioPlayer audio{
+    height: 20px;
+    margin-top: 21px;
+    margin-left: 1px;
+    width: 200px;
+}
+
+#audioPlayer img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+#songName {
+    font-size: small;
+}
+}

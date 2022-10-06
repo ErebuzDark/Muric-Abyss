@@ -506,6 +506,10 @@ background: rgb(5, 5, 5);
         font-size: 11px;
         height: 55px;
     }
+    
+    .Singers {
+        width: 90px;
+    }
 
     #sideBar {                                                  /*---Side Bar---*/
         margin: 8px;

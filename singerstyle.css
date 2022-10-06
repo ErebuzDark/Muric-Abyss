@@ -452,14 +452,21 @@ background: rgb(5, 5, 5);
 
 }
 
-/*=====================================325 width screen============================*/
+/*=====================================350 width screen============================*/
 
-@media screen and (max-width:325px) { 
+@media screen and (max-width:350px) { 
 
     .headBar {
         position: static;
-        width: 145%;
+        width: 160%;
         font-size: larger;
+    }
+
+    .headBar a{
+        position: static;
+        font-size: 20px;
+        padding-left: 20px  ;
+        height: 56px;
     }
 
     #sideBar {                                                  /*---Side Bar---*/
@@ -468,12 +475,12 @@ background: rgb(5, 5, 5);
         padding-left: 0px;
         font-size: 20px;
         height: 50px;
-        width: 140%;
+        width: 155%;
         display: flex;
     }
 
     #mainScreen {
-        width: 135%;
+        width: 150%;
         height: 90%;
         margin-top: 100px;
         margin-bottom: 20px;
@@ -481,7 +488,7 @@ background: rgb(5, 5, 5);
 
     #footnote {                                                 /*---Footnote*/
         height: 100px;
-        width: 145%;
+        width: 160%;
     }
  }
 
@@ -517,3 +524,5 @@ background: rgb(5, 5, 5);
         width: 145%;
     }
  }
+
+

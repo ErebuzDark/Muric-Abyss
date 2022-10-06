@@ -484,3 +484,36 @@ background: rgb(5, 5, 5);
         width: 145%;
     }
  }
+
+/*=====================================325 width screen============================*/
+
+@media screen and (max-width:325px) { 
+
+    .headBar {
+        position: static;
+        width: 145%;
+        font-size: larger;
+    }
+
+    #sideBar {                                                  /*---Side Bar---*/
+        margin: 8px;
+        margin-top: 15px;
+        padding-left: 0px;
+        font-size: 20px;
+        height: 50px;
+        width: 140%;
+        display: flex;
+    }
+
+    #mainScreen {
+        width: 135%;
+        height: 90%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    #footnote {                                                 /*---Footnote*/
+        height: 100px;
+        width: 145%;
+    }
+ }

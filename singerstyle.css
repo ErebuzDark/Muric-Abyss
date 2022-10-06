@@ -496,10 +496,15 @@ background: rgb(5, 5, 5);
 
 @media screen and (max-width:325px) { 
 
-    .headBar {
+   .headBar {
         position: static;
-        width: 145%;
-        font-size: larger;
+        width: 127%;
+        font-size: 10px;
+    }
+
+    .headBar a {
+        font-size: 11px;
+        height: 55px;
     }
 
     #sideBar {                                                  /*---Side Bar---*/
@@ -519,9 +524,9 @@ background: rgb(5, 5, 5);
         margin-bottom: 20px;
     }
 
-    #footnote {                                                 /*---Footnote*/
+   #footnote {                                                 /*---Footnote*/
         height: 100px;
-        width: 145%;
+        width: 127%;
     }
  }
 
